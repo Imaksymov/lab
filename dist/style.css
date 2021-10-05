@@ -42,7 +42,7 @@ html, body {
 
 .main-header {
   background-color: rgba(161, 159, 159, 0.6);
-  background-image: url("Images/Header Background.jpg");
+  background-image: url("/Header Background.c6c61d89.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   padding-bottom: 30px;
@@ -148,6 +148,39 @@ html, body {
 
 .btn-primary:hover {
   background-color: #46c52d;
+}
+
+.tour-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+  border: none;
+}
+
+.tour-item {
+  display: inline-block;
+  padding-right: .5em;
+}
+
+.tour-date {
+  color: #555;
+  width: 11%;
+  font-weight: bold;
+}
+
+.tour-city {
+  width: 24%;
+}
+
+.tour-arena {
+  width: 42%;
+}
+
+.tour-btn {
+  max-width: 19%;
 }
 
 .shop-item {
@@ -286,4 +319,6 @@ html, body {
   margin: 40px auto 80px auto;
   font-size: 1.75em;
 }
-/*# sourceMappingURL=style.css.map */
+
+
+/*# sourceMappingURL=/style.css.map */

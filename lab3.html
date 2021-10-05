@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Store</title>
+    <link rel="stylesheet" href="scss/style.css" type="text/css"/>
+    <script src="js/lab3.js" async></script>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="#hous">Houses</a></li>
+                <li><a href="#apa">Apartments</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-large">My store</h1>
+    </header>
+    <section class="container content-section">
+        <h2 class="section-header"><a name="hous">Houses</a></h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">House 1</span>
+                <img class="shop-item-image" src="css/images/house6.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$2000000</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">House 2</span>
+                <img class="shop-item-image" src="css/images/house2.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$400000</span>
+                    <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">House 3</span>
+                <img class="shop-item-image" src="css/images/house3.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$250000</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">House 4</span>
+                <img class="shop-item-image" src="css/images/house5.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$500000</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header"><a name="apa">Apartments</a></h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Flat 1</span>
+                <img class="shop-item-image" src="css/images/apa1.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$120/day</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Flat 2</span>
+                <img class="shop-item-image" src="css/images/apa2.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$130/day</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header"><a name="cart">CART</a></h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">Buy it</button>
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">Store by Ivan</h3>
+        </div>
+    </footer>
+</body>
+</html>

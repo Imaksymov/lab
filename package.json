@@ -1,0 +1,21 @@
+{
+  "name": "vscode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"parcel scss/style.css --open",
+    "build":"parcel build scss/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imaksymov/lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imaksymov/lab/issues"
+  },
+  "homepage": "https://github.com/Imaksymov/lab#readme"
+}
