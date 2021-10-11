@@ -1,0 +1,38 @@
+body{
+    background-color: #EFEFEF;
+    font-family: calibri;
+}
+.blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.oform{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbffff;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px;
+    width: 50%;
+    min-width: 1000px;
+    max-width: 1100px;
+    border: dotted 4px #4A403A;
+    color: black;
+    &:hover{
+        border: solid 4px #4A403A;
+    }
+}
+.knop{
+    cursor: pointer;
+    &:hover{
+        border: solid 4px #180303;
+    }
+}
+.phone{
+    border-radius: 10px;
+}
