@@ -1,0 +1,17 @@
+[
+    {
+        "name": "sportlife-usual",
+        "prise":"5500 UAH",
+        "time":"365 days"
+    },
+    {
+        "name": "sportlife-premium",
+        "prise":"9000 UAH",
+        "time":"365 days"
+    },
+    {
+        "name": "sportlife-lux",
+        "prise":"20000 UAH",
+        "time":"365 days"
+    }
+]

@@ -180,8 +180,8 @@ var kudavst = document.querySelector('.taktak');
 var URL3 = "file.json";
 var res3;
 var textVstfin = "";
-fetch(URL3).then(function (res) {
-  return res.json();
+fetch(URL3).then(function (response) {
+  return response.json();
 }).then(function (r5) {
   res3 = r5;
   vstavka3(res3);

@@ -1,6 +1,6 @@
-.cache
-.dist
-.node_modules
+/.cache
+/node_modules
+/.vscode
 lab1.html
 lab1.jpg
 lab2.html

@@ -79,7 +79,7 @@ const URL3= "file.json"
 let res3
 let textVstfin=""
 fetch(URL3)
-    .then(res=> res.json())
+    .then(response=> response.json())
     .then(r5=>{
         res3 = r5; 
         vstavka3(res3)
