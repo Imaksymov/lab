@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    background-color: rgba(147, 235, 255, 0.749);
+    margin-left: -8px;
+    margin-right: -20px;
+    justify-content:center;
+    flex-wrap: wrap;
+    color: rgb(91, 91, 91);
+  }
+  
+.flex-container > div {
+
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 500px;
+}
+.size {
+    white-space: nowrap; 
+    padding: 5px; 
+   }
+textarea {
+    resize: vertical;
+    padding:15px;
+    border-radius:7px;
+    border:0;
+    background-color: #f2f2f2;
+    overflow: hidden;
+  }
+textarea:hover {
+      width: 80%;
+      height: 100px;
+      overflow: auto;
+  }
+

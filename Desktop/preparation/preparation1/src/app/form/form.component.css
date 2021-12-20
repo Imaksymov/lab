@@ -1,0 +1,32 @@
+.op{
+    margin: -20px;
+    color: rgb(91, 91, 91);
+}
+.head{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+li{
+    text-align: center;
+    list-style-type: none;
+}
+input{
+    padding: 10px;
+    width: 50%;
+    border-color:#767fb3 ;
+
+}
+.butt{
+    width: 52%;
+    padding:10px;
+    border:none;
+    background-color:#767fb3;
+    color:#fff;
+    font-weight:600;
+    border-radius:5px;
+}
+hr{
+    width: 60%;
+}

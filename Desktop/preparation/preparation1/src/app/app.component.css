@@ -1,0 +1,42 @@
+.body{
+    margin-top: -21px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    color: rgba(114, 116, 211, 0.667);
+}
+ul.list-style{
+    text-align: center;
+    background-color: rgba(147, 235, 255, 0.749);
+    margin: -10px;
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+ul.list-style li{
+    display: inline; 
+    margin-bottom: 200px;
+    padding: 200px;
+    font-size: 30px;
+    color: rgb(91, 91, 91);
+}
+
+nav select {
+    display: none;
+  }
+
+@media (max-width: 1700px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+}
+
+.select{
+    display: block;
+    font-size: 25px; 
+    font-family: "Gill Sans", sans-serif;
+    
+}
+  
+

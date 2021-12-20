@@ -1,0 +1,16 @@
+.hero-image{
+    background-image: url("src\assets\images\travel3.jpg");
+     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    margin: -34px;
+}
+.hero-image h1{
+    color: rgb(249, 117, 117);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: 50px;
+}

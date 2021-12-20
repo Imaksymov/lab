@@ -1,0 +1,10 @@
+.footer{
+    margin-top: -7px;
+    background-color: rgba(147, 235, 255, 0.749);
+    margin-left: -8px;
+    margin-right: -20px;
+}
+footer{
+    margin-top: 20px;
+    padding: 5px;
+}
